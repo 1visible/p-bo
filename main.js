@@ -1,4 +1,5 @@
-const { TOKEN, PREFIX } = require('./config');
+//const { TOKEN, PREFIX } = require('./config');
+const PREFIX = '!';
 const { Client } = require('discord.js');
 const bot = new Client();
 
@@ -17,4 +18,4 @@ bot.on('guildMemberAdd', member => {
     channel.send(`Welcome to the server, ${member}`);
 });
 
-bot.login(TOKEN);
+bot.login(process.env.TOKEN);
