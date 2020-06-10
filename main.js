@@ -12,7 +12,7 @@ bot.on('message', message => {
     const args = message.content.slice(process.env.PREFIX.length).trim().split(/ +/g);
     const command = args.shift().toLowerCase();
 
-    if(command === 'test') message.reply('ok');
+    if(command === 'test') message.reply('ça marche toujours');
 
 });
 
