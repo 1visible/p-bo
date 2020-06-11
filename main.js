@@ -4,7 +4,7 @@ const client = new Discord.Client();
 
 client.on('ready', () => {
     console.log(`${client.user.tag} est connecté`);
-    client.channels.cache.get('712009032273100971').messages.fetch('719894542077263933');
+    client.channels.cache.get('712009032273100971').messages.fetch('720725662700273674');
 });
 
 client.on('message', message => {
@@ -15,12 +15,12 @@ client.on('message', message => {
 });
 
 client.on('messageReactionAdd', (reaction, user) => {
-    console.log('init');
     if(user.bot) return;
     if(reaction.message.channel.id === '712009032273100971')
-        if(reaction.message.id === '719894542077263933' && reaction.emoji.name === '✅') {
+        if(reaction.message.id === '720725662700273674' && reaction.emoji.name === '✅') {
             const member = reaction.message.guild.member(user);
             member.roles.add('719887496053260328');
+            reaction.message.react('✅');
         }
         else reaction.remove();
 });
