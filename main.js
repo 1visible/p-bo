@@ -12,8 +12,18 @@ bot.on('message', message => {
     const args = message.content.slice(process.env.PREFIX.length).trim().split(/ +/g);
     const command = args.shift().toLowerCase();
 
-    if(command === 'test') message.reply('ça marche toujours');
+});
 
+bot.on('messageReactionAdd', (messageReaction, user) => {
+    if(user.bot) return;
+    if(messageReaction.message.channel.id === '712009032273100971') {
+        messageReaction.remove();
+        if(messageReaction.message.id === '719894542077263933' && messageReaction.emoji === '✅') {
+            const member = messageReaction.message.guild.member(user);
+            member.roles.add('719887496053260328');
+            messageReaction.message.react('✅');
+        }
+    }
 });
 
 bot.on('guildMemberAdd', member => {
