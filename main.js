@@ -20,7 +20,6 @@ client.on('messageReactionAdd', (reaction, user) => {
         if(reaction.message.id === '720725662700273674' && reaction.emoji.name === '✅') {
             const member = reaction.message.guild.member(user);
             member.roles.add('719887496053260328');
-            reaction.message.react('✅');
         }
         else reaction.remove();
 });
