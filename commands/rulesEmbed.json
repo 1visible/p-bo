@@ -1,0 +1,20 @@
+{
+    "fields": [
+        {
+            "name": "Contenu interdit",
+            "value": "Afficher ou divulguer du contenu illégal, incitant à la consommation de drogue, d'alcool ou de jeux d'argent, raciste, sexiste, diffamatoire, politique, religieux, à caractère sexuel, violent, choquant, insultant, offensant, incitant à la haine ou au harcèlement, douteux, potentiellement dangereux, de piratage, d'arnaque ou faisant de la publicité sans permission préalable du STAFF est strictement interdit.\nCela s'applique également à votre nom d'utilisateur et votre photo de profil."
+        },
+        {
+            "name": "Règles de bonne conduite",
+            "value": "Dans le but de faire du serveur un endroit convivial, spammer, abuser d'émojis, de réactions ou de majuscules, zapper d'un salon vocal à l'autre de manière répétitive, crier ou utiliser des bruits dérangeants n'est pas autorisé. De plus, évitez de poster plusieurs messages lorsque vous pouvez les regrouper en un seul bloc afin de garder les salons de discussions propres et d'éviter les notifications à répétition."
+        },
+        {
+            "name": "Protection des données et de la vie privée",
+            "value": "Afin de protéger vos données personnelles et votre vie privée, évitez de divulguer des informations telles que votre date de naissance, votre adresse e-mail, votre adresse postale, votre numéro de téléphone, vos informations bancaires ou vos mots de passe.\n**Les membres du STAFF ne vous demanderont en aucun cas votre mot de passe Discord.**"
+        },
+        {
+            "name": "Sanctions",
+            "value": "En cas de non-respect du règlement, les membres du STAFF se réservent le droit de vous avertir ou de vous sanctionner, allant d'une interdiction temporaire de parler au bannissement définitif du serveur.\n\nCliquez sur l'émoji :white_check_mark: ci-dessous pour accepter."
+        }
+    ]
+}
